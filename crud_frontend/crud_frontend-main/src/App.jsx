@@ -168,6 +168,7 @@ const BASE_URL = 'http:// 107.23.243.224:9090/springapp1';
                   Edit
                 </button>
 {/*                 {
+                  
                 <button
                   className="btn btn-danger btn-sm"
                   onClick={() => deleteProduct(p.id)}
@@ -175,6 +176,7 @@ const BASE_URL = 'http:// 107.23.243.224:9090/springapp1';
                   Delete
                 </button>
                 } */}
+                
               </td>
             </tr>
           ))}
