@@ -166,9 +166,9 @@ const BASE_URL = 'http:// 107.23.243.224:9090/springapp1';
                   onClick={() => editProduct(p)}
                 >
                   Edit
-{/*                 </button>
+                </button>
                 {
-                <button
+{/*                 <button
                   className="btn btn-danger btn-sm"
                   onClick={() => deleteProduct(p.id)}
                 >
