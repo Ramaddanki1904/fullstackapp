@@ -47,13 +47,13 @@ const BASE_URL = 'http:// 107.23.243.224:9090/springapp1';
   };
 
  
-  // const deleteProduct = async (id) => {
-  //   if (window.confirm('Are you sure you want to delete this product?')) {
-  //     await axios.delete(`http://localhost:9090/delete/${id}`);
-  //     alert('Delete successful');
-  //     fetchProducts();
-  //   }
-  // };
+  const deleteProduct = async (id) => {
+    if (window.confirm('Are you sure you want to delete this product?')) {
+      await axios.delete(`http://localhost:9090/delete/${id}`);
+      alert('Delete successful');
+      fetchProducts();
+    }
+  };
   
 
   useEffect(() => {
@@ -167,15 +167,14 @@ const BASE_URL = 'http:// 107.23.243.224:9090/springapp1';
                 >
                   Edit
                 </button>
-{/*                 {
-                  
+                {
                 <button
                   className="btn btn-danger btn-sm"
                   onClick={() => deleteProduct(p.id)}
                 >
                   Delete
                 </button>
-                } */}
+                }
                 
               </td>
             </tr>
